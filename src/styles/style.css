@@ -1,3 +1,45 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+#buscas{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+.resultadosDeBusca{
+    margin-bottom: 40px;
+}
+.botao{
+    float: left;
+    margin-left: -30px;
+    background-color: bisque;
+    border-width: 3px;
+    border-style:double;
+}
+
+
+.titulo{
+    height: auto;
+    background-color: rgba(245, 87, 87, 0.599);
+    margin-bottom: -10px;
+}
+.texto{
+    height: 100px;
+    background-color: rgba(235, 137, 137, 0.687);
+}
+.url{
+    margin-top: 5px;
+    height: auto;
+    background-color: rgba(250, 153, 153, 0.544);
+}
+
+
+.tit{
+    font-size: 25px;
+    text-align: left;
+
+}
+
+.links{
+    font-size: small;
+}

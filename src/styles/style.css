@@ -12,9 +12,7 @@ body {
 .botao{
     float: left;
     margin-left: -30px;
-    background-color: bisque;
-    border-width: 3px;
-    border-style:double;
+    border: 2px solid black;
 }
 
 
@@ -40,6 +38,6 @@ body {
 
 }
 
-.links{
+.dominio{
     font-size: small;
 }

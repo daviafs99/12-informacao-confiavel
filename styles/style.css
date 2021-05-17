@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#resultado-container {
+  width: 80%;
+  margin: auto;
+}
+.resultado {
+  margin-bottom: 40px;
+}
+.reputacao {
+  height: 100%;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.texto-resultado {
+  height: 100%;
+}
+
+.titulo {
+  height: auto;
+}
+
+.resultado img {
+  height: 30px;
+}

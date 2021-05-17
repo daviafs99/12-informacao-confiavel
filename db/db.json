@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "Globo",
+    "url": "https://globo.com",
+    "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
+    "reputacao": 6.6
+  },
+  {
+    "nome": "UOL",
+    "url": "https://uol.com.br",
+    "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
+    "reputacao": 9.2
+  },
+  {
+    "nome": "Wikipedia",
+    "url": "https://wikipedia.org",
+    "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
+    "reputacao": 5.8
+  },
+  {
+    "nome": "R7",
+    "url": "https://noticias.r7.com",
+    "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
+    "reputacao": 7.0
+  },
+  {
+    "nome": "Google Noticias",
+    "url": "https://news.google.com",
+    "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
+    "reputacao": 9.0
+  },
+  {
+    "nome": "Capricho",
+    "url": "https://capricho.abril.com.br",
+    "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
+    "reputacao": 3.5
+  }
+]

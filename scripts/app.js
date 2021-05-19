@@ -1,52 +1,62 @@
 /**
  *
- * @param {HTMLElement} idDoSite
+ * @param {HTMLElement} idDowebpage
  */
-$.getJSON("db/db.json", function (dados) {
-  dados.forEach((site, index) => {
+$.getJSON("db/db.json", function (data) {
+  data.forEach((webpage, index) => {
     $("#resultado-container").append(
-      '<div class="resultado" id=' +
+      "<div class='resultado' id=" +
         index +
         ">" +
-        '<img src="" pontuacao="' +
-        site.reputacao +
-        '"></img>' +
-        '<div class="texto-resultado">' +
-        '<a href="' +
-        site.url +
-        '" class="dominio">' +
-        '<h1 class="titulo">' +
-        site.nome +
+        "<img src='' pontuacao='" +
+        webpage.reputation +
+        "'></img>" +
+        "<div class='texto-resultado'>" +
+        "<a href='" +
+        webpage.url +
+        "' class='dominio'>" +
+        "<h1 class='titulo'>" +
+        webpage.name +
         "</h1>" +
         "</a>" +
-        '<p class="not">' +
-        site.descricao +
+        "<p class='not'>" +
+        webpage.description +
         "</p>" +
         "</div>" +
         "</div>"
     );
 
-    var elemento = "#" + index + " img";
+    var element = "#" + index + " img";
 
-    if (site.reputacao < 4) {
-      $(elemento).attr("src", "assets/ruim.png");
-    } else if (site.reputacao >= 4 && site.reputacao <= 6) {
-      $(elemento).attr("src", "assets/neutro.png");
+    if (webpage.reputation < 4) {
+      $(element).attr("src", "assets/ruim.png");
+    } else if (webpage.reputation >= 4 && webpage.reputation <= 6) {
+      $(element).attr("src", "assets/neutro.png");
     } else {
-      $(elemento).attr("src", "assets/bom.png");
+      $(element).attr("src", "assets/bom.png");
     }
   });
 });
 
-function buscador() {
-  var input, filter, ul, li, a, i, txtValue;
+function search() {
+  var input, filter;
   input = $("#keywords");
   filter = input.val().toUpperCase();
-  listaSites = $("#resultado-container").children();
+  listawebpages = $("#resultado-container").children();
 
-  listaSites.each((index, element) => {
-    htmlString = element.outerHTML;
-    if (htmlString.includes(filter)) {
+  listawebpages.each((index, element) => {
+    var tagLink = element.children[1].children[0];
+
+    var domain = tagLink.getAttribute("href");
+    var name = tagLink.children[0].textContent;
+
+    var description = element.children[1].children[1].textContent;
+
+    if (
+      description.toUpperCase().includes(filter) ||
+      name.toUpperCase().includes(filter) ||
+      domain.toUpperCase().includes(filter)
+    ) {
       element.style.display = "";
     } else {
       element.style.display = "none";

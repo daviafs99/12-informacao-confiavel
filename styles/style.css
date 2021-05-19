@@ -23,5 +23,12 @@ body {
 }
 
 .resultado img {
+  float: left;
+  padding-right: 0.4%;
+  padding-top: 0.2%;
   height: 30px;
+}
+
+.tags {
+  color: blue;
 }

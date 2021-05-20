@@ -29,11 +29,11 @@ $.getJSON("db/db.json", function (data) {
     var element = "#" + index + " img";
 
     if (webpage.reputation < 4) {
-      $(element).attr("src", "assets/ruim.png");
+      $(element).attr("src", "assets/icons/ruim.png");
     } else if (webpage.reputation >= 4 && webpage.reputation <= 6) {
-      $(element).attr("src", "assets/neutro.png");
+      $(element).attr("src", "assets/icons/neutro.png");
     } else {
-      $(element).attr("src", "assets/bom.png");
+      $(element).attr("src", "assets/icons/bom.png");
     }
   });
 });

@@ -1,25 +1,48 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.logo{
+  width: 280px;
+  margin-top: 10px;
+  margin-left: 30px;
 }
-#resultado-container {
-  width: 80%;
-  margin: auto;
+.header{
+  background:rgb(222, 223, 233);
+  margin-bottom: 20px;
 }
-.resultado {
-  margin-bottom: 40px;
-}
-.reputacao {
-  height: 100%;
-  align-items: center;
-  border: 2px solid black;
-}
+.header_area{
+  padding: 20px;
 
-.texto-resultado {
-  height: 100%;
 }
-
-.titulo {
-  height: auto;
+.menu_area{
+  margin-top: 30px;
+  margin-left: -30px;
+}
+.menu_area nav a{
+  background-color: #08067c;
+  color: white ;
+}
+.nav-link{
+  margin-inline: 10px;
+}
+.form-control{
+  margin-left: 10px 
+}
+.menu_area nav a:hover{
+  background-color: #7498e7;
+}
+.active{
+  background-color:#072c70c7 !important;
+}
+.card{
+  margin-top: 30px;
+}
+.mb.card-body{
+  text-align: center;
+  
+}
+.dropdown-toggle{
+  background-color:rgb(2, 6, 56);
+  margin-top: 20px;
+  margin-left: 1300px;
+  
 }
 
 .resultado img {

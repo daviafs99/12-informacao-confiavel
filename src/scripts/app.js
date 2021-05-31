@@ -23,7 +23,33 @@ $.getJSON("db/db.json", function (data) {
         webpage.description +
         "</p>" +
         "</div>" +
-        "</div>"
+        //Comeco dos botões de avaliação
+        "<div class='dropdown'>" + 
+        "<button class='btn btn-secondary dropdown-toggle like' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>" +
+          "Gostei" + 
+        "</button>" +
+        "<ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'>" +
+          "<li><a class='dropdown-item' href='#'>Bem organizado</a></li>" +
+          "<li><a class='dropdown-item' href='#'>Informativo</a></li>" +
+          "<li><a class='dropdown-item' href='#'>Interface Intuitiva</a></li>" +
+          "<li><a class='dropdown-item' href='#'>Design agradável</a></li>" +
+        "</ul>" +
+      "</div>" +
+
+      "<div class='dropdown'>" + 
+        "<button class='btn btn-secondary dropdown-toggle dislike' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>" +
+          "Não gostei" + 
+        "</button>" +
+        "<ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'>" +
+          "<li><a class='dropdown-item' href='#'>Poluição visual</a></li>" +
+          "<li><a class='dropdown-item' href='#'>Informações falsas</a></li>" +
+          "<li><a class='dropdown-item' href='#'>Má interação com a comunidade</a></li>" +
+          "<li><a class='dropdown-item' href='#'>Conteúdo muito parcial</a></li>" +
+        "</ul>" +
+      "</div>" +
+      //Fim dos botões de avaliação
+
+      "</div>"
     );
 
     var element = "#" + index + " img";

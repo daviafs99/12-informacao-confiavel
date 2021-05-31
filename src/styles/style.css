@@ -58,3 +58,14 @@
 .cardNot{
   height: 550px;
 }
+
+
+
+
+/* Botoes like dislike */
+.like{
+  background-color: green;
+}
+.dislike{
+  background-color: red;
+}

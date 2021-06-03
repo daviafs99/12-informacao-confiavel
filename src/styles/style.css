@@ -58,7 +58,9 @@
 .cardNot{
   height: 550px;
 }
-
+#resultado-container{
+  width: 100vw;
+}
 
 
 

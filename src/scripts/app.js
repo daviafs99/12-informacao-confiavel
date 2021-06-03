@@ -187,4 +187,3 @@ $.getJSON("db/db.json", function (data) {
   });
   renderizaElementos();
 });
-

@@ -4,41 +4,71 @@
     "url": "https://globo.com",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
     "tags": "noticias",
-    "reputation": 6.6
+    "reputation": {
+      "design": 3,
+      "information": 4,
+      "ui": -2,
+      "partiality": -3
+    }
   },
   {
     "name": "UOL",
     "url": "https://uol.com.br",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
     "tags": "noticias",
-    "reputation": 9.2
+    "reputation": {
+      "design": 0,
+      "information": 0,
+      "ui": 0,
+      "partiality": 0
+    }
   },
   {
     "name": "Wikipedia",
     "url": "https://wikipedia.org",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
     "tags": "noticias",
-    "reputation": 5.8
+    "reputation": {
+      "design": 0,
+      "information": 0,
+      "ui": 0,
+      "partiality": 0
+    }
   },
   {
     "name": "R7",
     "url": "https://noticias.r7.com",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
     "tags": "noticias",
-    "reputation": 7.0
+    "reputation": {
+      "design": 0,
+      "information": 0,
+      "ui": 0,
+      "partiality": 0
+    }
   },
   {
     "name": "Google Noticias",
     "url": "https://news.google.com",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
     "tags": "noticias",
-    "reputation": 9.0
+    "reputation": {
+      "design": 0,
+      "information": 0,
+      "ui": 0,
+      "partiality": 0
+    }
   },
   {
     "name": "Capricho",
     "url": "https://capricho.abril.com.br",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
     "tags": "noticias",
-    "reputation": 3.5
+    "reputation": {
+      "design": 0,
+      "information": 0,
+      "ui": 0,
+      "partiality": 0
+    }
   }
 ]

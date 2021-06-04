@@ -9,7 +9,8 @@
       "information": 4,
       "ui": -2,
       "partiality": -3
-    }
+    },
+    "fav": false
   },
   {
     "name": "UOL",
@@ -21,7 +22,8 @@
       "information": 0,
       "ui": 0,
       "partiality": 0
-    }
+    },
+    "fav": false
   },
   {
     "name": "Wikipedia",
@@ -33,7 +35,8 @@
       "information": 0,
       "ui": 0,
       "partiality": 0
-    }
+    },
+    "fav": false
   },
   {
     "name": "R7",
@@ -45,7 +48,8 @@
       "information": 0,
       "ui": 0,
       "partiality": 0
-    }
+    },
+    "fav": false
   },
   {
     "name": "Google Noticias",
@@ -57,7 +61,8 @@
       "information": 0,
       "ui": 0,
       "partiality": 0
-    }
+    },
+    "fav": false
   },
   {
     "name": "Capricho",
@@ -69,6 +74,7 @@
       "information": 0,
       "ui": 0,
       "partiality": 0
-    }
+    },
+    "fav": false
   }
 ]

@@ -152,6 +152,24 @@ function changeReputation(key, category) {
   localStorage.setItem(key, JSON.stringify(element));
   renderizaElementos();
 }
+function filtroBaixo(){
+  for (key in localStorage) {
+    webpage = JSON.parse(localStorage.getItem(key));
+  if (webpage == null) {
+      break;
+    } else {
+      let reputation =
+        webpage.reputation.design +
+        webpage.reputation.information +
+        webpage.reputation.ui +
+        webpage.reputation.partiality;
+      if(reputation <= 0){
+        $(`#${key}`).css("display", 'none');
+      }
+    }
+  }
+
+}
 
 function setFav(id) {
   let svg = $(`#fav-icon-${id}`);

@@ -1,8 +1,8 @@
 [
   {
-    "name": "Globo",
-    "url": "https://globo.com",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
+    "name": "G1",
+    "url": "https://g1.globo.com/",
+    "description": "G1 é um portal de notícias brasileiro mantido pelo Grupo Globo e sob orientação da Central Globo de Jornalismo.",
     "tags": "noticias",
     "reputation": {
       "design": 3,
@@ -39,9 +39,9 @@
     "fav": false
   },
   {
-    "name": "R7",
+    "name": "BBC News",
     "url": "https://noticias.r7.com",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
+    "description": "A British Broadcasting Corporation, mais conhecida pela sigla BBC, é uma corporação pública de rádio e televisão do Reino Unido fundada em 1922.",
     "tags": "noticias",
     "reputation": {
       "design": 0,
@@ -65,9 +65,9 @@
     "fav": false
   },
   {
-    "name": "Capricho",
-    "url": "https://capricho.abril.com.br",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet magni optio officia magnam voluptates, hic facilis, voluptatem est ipsa culpa cumque dolorem sit illum eveniet necessitatibus facere doloribus officiis laudantium, vero neque molestias. Eum quis perferendis minus molestias dicta, nemo dolores soluta ex sit nisi repellat reprehenderit modi vero obcaecati.",
+    "name": "CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/",
+    "description": "CNN é um canal americano de notícias. A rede é conhecida por sua dramática cobertura ao vivo de notícias de última hora, algumas das quais atraíram críticas como excessivamente sensacionalistas e por seus esforços de ser apartidária.",
     "tags": "noticias",
     "reputation": {
       "design": 0,

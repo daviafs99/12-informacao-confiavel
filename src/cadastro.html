@@ -14,8 +14,17 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="styles/style.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="scripts/app.js"></script>
-    
+
+    <!--Dark Mode -->
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <script>
+    function addDarkmodeWidget() {
+      new Darkmode().showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+  
+  </script>
+
 </head>
 
 <body>
@@ -67,8 +76,8 @@
                             <div class="form-group">
                                 <label for="remember-me" class="text-info"><span>Manter Conectado </span> <span><input
                                             id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
                             </div>
-                            <input name="submit" class="btn btn-info btn-md" value="Cadastrar">
                         </form>
                     </div>
                 </div>

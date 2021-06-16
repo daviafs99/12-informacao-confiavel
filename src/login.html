@@ -14,7 +14,17 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="styles/style.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="scripts/app.js"></script>
+
+    <!--Dark Mode -->
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <script>
+    function addDarkmodeWidget() {
+      new Darkmode().showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+  
+  </script>
+
 </head>
 
 <body>
@@ -63,8 +73,8 @@
                                     <a href="cadastro.html" class="text-info">Cadastre aqui</a>
                                 </div>
                             </div>
+                            <button type="submit" name="submit" class="btn btn-info btn-md">Login"</button>
                         </form>
-                        <button onclick="login()" name="submit" class="btn btn-info btn-md">Login</button>
                     </div>
                 </div>
             </div>

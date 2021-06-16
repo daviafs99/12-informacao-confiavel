@@ -293,3 +293,15 @@ if (localStorage.length === 0) {
     });
   });
 }
+
+function login(){
+  var user = document.getElementById("username");
+  var senha = document.getElementById("password");
+  if(user.value == "admin@gmail.com" && senha.value == "admin"){
+    localStorage.setItem("userlogin",true);
+    alert("Login efetuado com sucesso!");
+    window.location.href = "index.html" ;
+  } else{
+    alert("Inválido");
+  }
+}
